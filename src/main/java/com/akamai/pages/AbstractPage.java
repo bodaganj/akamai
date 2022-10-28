@@ -1,6 +1,6 @@
-package pages;
+package com.akamai.pages;
 
-import items.utils.DataItemsFactory;
+import com.akamai.items.utils.DataItemsFactory;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import net.serenitybdd.core.pages.PageObject;

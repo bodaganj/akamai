@@ -1,7 +1,7 @@
-package items.utils;
+package com.akamai.items.utils;
 
+import com.akamai.pages.AbstractPage;
 import org.openqa.selenium.WebDriver;
-import pages.AbstractPage;
 
 public interface DataItem {
 

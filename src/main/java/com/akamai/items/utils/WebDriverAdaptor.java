@@ -1,4 +1,4 @@
-package items.utils;
+package com.akamai.items.utils;
 
 import lombok.AllArgsConstructor;
 import org.openqa.selenium.By;

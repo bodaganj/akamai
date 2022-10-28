@@ -1,9 +1,9 @@
-package items.utils;
+package com.akamai.items.utils;
 
+import com.akamai.pages.AbstractPage;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.openqa.selenium.WebDriver;
-import pages.AbstractPage;
 
 @Getter
 @AllArgsConstructor

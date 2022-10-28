@@ -1,5 +1,6 @@
-package items.utils;
+package com.akamai.items.utils;
 
+import com.akamai.pages.AbstractPage;
 import lombok.extern.slf4j.Slf4j;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.locators.SmartFieldDecorator;
@@ -7,7 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
 import org.openqa.selenium.support.pagefactory.ElementLocatorFactory;
 import org.openqa.selenium.support.pagefactory.FieldDecorator;
-import pages.AbstractPage;
 
 import java.util.ArrayList;
 import java.util.List;
