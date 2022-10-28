@@ -30,9 +30,20 @@ public class AkamaiCareersStepsDefinition {
 
    @Then("any job offers are found")
    public void anyJobOffersAreFound() {
-      productSteps.clickSearch();
-      assertThat(productSteps.anyJobOffersAreFound())
+      assertThat(areThereAnyJobOffers())
          .as("There should be any job offers.")
          .isTrue();
+   }
+
+   @Then("no job offers are found")
+   public void noJobOffersAreFound() {
+      assertThat(areThereAnyJobOffers())
+         .as("There should be no job offers.")
+         .isFalse();
+   }
+
+   private boolean areThereAnyJobOffers() {
+      productSteps.clickSearch();
+      return productSteps.anyJobOffersAreFound();
    }
 }
